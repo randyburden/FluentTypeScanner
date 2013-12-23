@@ -1,56 +1,72 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>FluentTypeScanner by randyburden</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/main.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
     <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+    <title>FluentTypeScanner by randyburden</title>
   </head>
+
   <body>
+    <div id="container">
+      <div class="inner">
 
-      <header>
-        <h1>FluentTypeScanner</h1>
-        <p>FluentTypeScanner is a .NET library used for scanning assemblies for implementations of defined types using several different scanning strategies.</p>
-      </header>
+        <header>
+          <h1>FluentTypeScanner</h1>
+          <h2>FluentTypeScanner is a .NET library used for scanning assemblies for implementations of defined types using several different scanning strategies.</h2>
+        </header>
 
-      <div id="banner">
-        <span id="logo"></span>
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/randyburden/FluentTypeScanner/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/randyburden/FluentTypeScanner/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/randyburden/FluentTypeScanner" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
 
-        <a href="https://github.com/randyburden/FluentTypeScanner" class="button fork"><strong>View On GitHub</strong></a>
-        <div class="downloads">
-          <span>Downloads:</span>
-          <ul>
-            <li><a href="https://github.com/randyburden/FluentTypeScanner/zipball/master" class="button">ZIP</a></li>
-            <li><a href="https://github.com/randyburden/FluentTypeScanner/tarball/master" class="button">TAR</a></li>
-          </ul>
-        </div>
-      </div><!-- end banner -->
+        <hr>
 
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
-      <section>
-        <h1>
+        <section id="main_content">
+          <h1>
 <a name="fluenttypescanner" class="anchor" href="#fluenttypescanner"><span class="octicon octicon-link"></span></a>FluentTypeScanner</h1>
 
-<p>FluentTypeScanner is a .NET library used for scanning assemblies for implementations of defined types using several different scanning strategies.</p>
-      </section>
-      <footer>
-        <p>Project maintained by <a href="https://github.com/randyburden">randyburden</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
-      </footer>
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-              <script type="text/javascript">
+<p>FluentTypeScanner <a href="https://github.com/randyburden/FluentTypeScanner">https://github.com/randyburden/FluentTypeScanner</a></p>
+
+<h3>
+<a name="description" class="anchor" href="#description"><span class="octicon octicon-link"></span></a>Description:</h3>
+
+<p>FluentTypeScanner is a .NET library used to scan for types using various scanning strategies expressed in a fluent-based declarative syntax.</p>
+
+<p>FluentTypeScanner was originally developed as a tool to assist in creating extensible modular software by allowing software authors to scan
+for types implementing their libraries interfaces, classes, attributes, etc. using a fluent-based declarative syntax.</p>
+
+<h3>
+<a name="mit-license" class="anchor" href="#mit-license"><span class="octicon octicon-link"></span></a>MIT License:</h3>
+
+<p>Copyright (c) 2013, Randy Burden ( <a href="http://randyburden.com">http://randyburden.com</a> ) All rights reserved.</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), 
+to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS 
+IN THE SOFTWARE.</p>
+        </section>
+
+        <footer>
+          FluentTypeScanner is maintained by <a href="https://github.com/randyburden">randyburden</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+                  <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
@@ -61,5 +77,7 @@
             } catch(err) {}
           </script>
 
+      </div>
+    </div>
   </body>
 </html>
