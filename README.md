@@ -1,7 +1,9 @@
 FluentTypeScanner
 =================
 
-FluentTypeScanner https://github.com/randyburden/FluentTypeScanner
+Project Homepage: https://github.com/randyburden/FluentTypeScanner
+
+Available on NuGet as well: http://www.nuget.org/packages/FluentTypeScanner/
 
 ###Description:###
 
